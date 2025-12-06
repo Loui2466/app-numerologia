@@ -1,0 +1,5 @@
+{
+  "name": "Numerología del Ser",
+  "description": "Una aplicación que genera un análisis numerológico personalizado basado en tu fecha de nacimiento utilizando la API de Gemini. Descubre tu número de camino de vida y los secretos que revela sobre tu personalidad, destino y potencial.",
+  "requestFramePermissions": []
+}
