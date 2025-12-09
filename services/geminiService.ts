@@ -1,7 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 
 // FIX: Per coding guidelines, initialize GoogleGenAI directly and assume API_KEY is present.
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
 
 const promptTemplates: { [key: string]: (data: any) => string } = {
     es: ({ lifePathNumber, name, birthTime, gender, city, country }) => `
